@@ -1,0 +1,40 @@
+.tags {
+  &-item {
+    display: inline-flex;
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+    word-break: break-word;
+    min-width: 2rem;
+    max-width: 100%;
+    min-height: 1.125rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;
+    margin: 0.25rem;
+    cursor: default;
+  }
+  &-item-text {
+    font-size: 0.85rem;
+    line-height: 1.125rem;
+    margin: 0;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+.tags {
+  &.is-animated &__widget {
+    overflow: hidden;
+  }
+  &.is-animated &-item {
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    opacity: 0;
+    .transition(all 0.4s ease-in-out);
+  }
+  &.is-animated &-item.is-animating {
+    top: 0;
+    left: 0;
+    opacity: 1;
+  }
+}

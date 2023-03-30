@@ -1,0 +1,31 @@
+{
+  "_id": "c-05",
+  "_parentId": "b-05",
+  "_type": "component",
+  "_component": "tags",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Tags",
+  "displayTitle": "Tags Title",
+  "body": "This is optional body text.",
+  "instruction": "",
+  "_animate": true,
+  "_percentInviewVertical": 70,
+  "_items": [
+    {
+      "text": "tag 1",
+      "_classes": ""
+    },
+    {
+      "text": "tag 2",
+      "_classes": ""
+    },
+    {
+      "text": "tag 3",
+      "_classes": ""
+    }
+  ],
+  "_pageLevelProgress": {
+    "_isEnabled": true
+  }
+}

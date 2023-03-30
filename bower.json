@@ -1,0 +1,14 @@
+{
+  "name": "adapt-tags",
+  "version": "1.0.0",
+  "framework": ">=5.20.1",
+  "homepage": "https://github.com/nachocinalli/adapt-tags",
+  "bugs": "https://github.com/nachocinalli/adapt-tags/issues",
+  "component": "tags",
+  "targetAttribute": "_tags",
+  "displayName": "tags",
+  "description": "A component that displays a list of tags.",
+  "main": "/js/adapt-tags.js",
+  "keywords": ["adapt-plugin", "adapt-component"],
+  "license": "GPL-3.0"
+}
