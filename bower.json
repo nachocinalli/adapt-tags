@@ -1,5 +1,9 @@
 {
   "name": "adapt-tags",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nachocinalli/adapt-tags.git"
+  },
   "version": "1.0.0",
   "framework": ">=5.20.1",
   "homepage": "https://github.com/nachocinalli/adapt-tags",
