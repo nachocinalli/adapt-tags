@@ -7,7 +7,7 @@
     "ariaRegion": {
       "type": "string",
       "required": true,
-      "default": "List of progress tags.",
+      "default": "List of tags.",
       "inputType": "Text",
       "validators": [],
       "translatable": true
