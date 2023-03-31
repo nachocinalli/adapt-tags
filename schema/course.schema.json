@@ -12,24 +12,16 @@
           "type": "object",
           "default": {},
           "properties": {
-            "_components": {
+            "_tags": {
               "type": "object",
               "default": {},
+              "title": "Tags",
               "properties": {
-                "_tags": {
-                  "type": "object",
-                  "title": "tags",
-                  "default": {},
-                  "properties": {
-                    "ariaRegion": {
-                      "type": "string",
-                      "title": "ARIA region",
-                      "default": "List of progress tags",
-                      "_adapt": {
-                        "translatable": true
-                      }
-                    }
-                  }
+                "ariaRegion": {
+                  "type": "string",
+                  "title": "ARIA region",
+                  "default": "List of tags",
+                  "translatable": true
                 }
               }
             }
